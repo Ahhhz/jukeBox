@@ -1,0 +1,89 @@
+/* CURRENTLY IN: styles/main.css */
+
+.text {
+    font-family: 'Nova Mono', monospace;
+    color: #d17c78;
+}
+
+.songs {
+    width: 20%;
+    background-color: gray;
+    float: left;
+}
+
+.content {
+    width: 70%;
+    color: #d17c78;
+    float: left;
+}
+
+.title {
+    max-width: 100%;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 50px;
+    /*background-color: blue;*/
+
+}
+
+.col.one {
+    width: 20%;
+    float: left;
+    /*background-color: #d17c78;*/
+    border: 1px solid #ff7171;
+    min-height: 100%;
+}
+
+.col.two {
+    float: left;
+    width: 80%;
+    /*background-color: pink;*/
+    border: 1px solid black;
+    min-height: 100%;
+}
+
+.search {
+    float: right;
+    margin-top: 10px;
+}
+
+.slideIn {
+    animation-name: ellipsis;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+}
+
+@keyframes ellipsis {
+    from {
+        margin-right: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 100%;
+        width: 15%;
+    }
+}
+.col.three{
+      width: 100%;
+      min-height: 50px;
+      background-color: #22295f;
+      box-sizing: border-box;
+      border-color: #ff7171;
+      float: left;
+
+}
+
+.icon{
+  height: 50px;
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>API(s)</title>
+	<link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles/semantic.min.css">
+	<link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+
+
+	<div class="ui top attached demo menu">
+		<a class="item text js-menu">
+			<i class="sidebar icon"></i> Menu
+		</a>
+	</div>
+	<div class="ui bottom attached segment pushable">
+		<div class="ui labeled icon left inline vertical sidebar menu js-sidebar">
+			<a class="item">
+				<img src="assets/sign-in.svg" class="icon"> Sign In
+			</a>
+			<a class="item">
+				<img src="assets/playlist.svg" class="icon" >Playlist
+			</a>
+			<a class="item">
+				<img src="assets/favorites.svg" class="icon"> Favorites
+			</a>
+			<a class="item">
+				<img class="icon" src="assets/share.svg"> Share
+			</a>
+		</div>
+		<div class="pusher">
+			<div class="ui basic segment">
+				<h1 class="ui header title text">JukeBox</h1>
+				<div class="ui segment">
+					<div class="ui divider">
+						<div class="ui transparent big icon input search">
+							<input type="text" class="slideIn js-search" placeholder="Search...">
+							<i class="search icon"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col one text">queue</div>
+				<div class="col two text">current playing
+					<div class="clearfix">
+            <!-- <div class="col four"></div>
+            <div class="col  four"> </div>
+            <div class= "col four"> </div>
+            <div class="col four"> </div> -->
+						<div class="col three text">playlist</div>
+        </div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="javascript/semantic.min.js"></script>
+	<script src="javascript/main.js"></script>
+</body>
+
+</html>
